@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="472.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Chatroom">
+   <children>
+      <Button fx:id="btnSend" layoutX="646.0" layoutY="410.0" mnemonicParsing="false" onAction="#onClickSend" prefHeight="46.0" prefWidth="131.0" text="Wyślij" />
+      <TextField fx:id="messageToSend" layoutX="14.0" layoutY="410.0" onKeyPressed="#buttonPressed" prefHeight="46.0" prefWidth="624.0" />
+      <TextArea fx:id="usersList" editable="false" layoutX="646.0" layoutY="14.0" prefHeight="384.0" prefWidth="131.0" />
+      <TextArea fx:id="chatArea" layoutX="14.0" layoutY="14.0" prefHeight="384.0" prefWidth="624.0" />
+   </children>
+</AnchorPane>
